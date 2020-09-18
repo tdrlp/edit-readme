@@ -1,0 +1,5 @@
+.editor-wrap {
+    grid-column: editor;
+    grid-row: file;
+    margin-right: 5px;
+}

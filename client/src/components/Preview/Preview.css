@@ -1,0 +1,5 @@
+.preview-wrap {
+    grid-column: preview;
+    grid-row: file;
+    margin-left: 5px;
+}

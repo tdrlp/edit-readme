@@ -1,0 +1,16 @@
+.workarea-wrap {
+    margin: 25px;
+    display: grid;
+    min-height: 500px;
+    min-width: 300px;
+    grid-template-columns: [editor] 50% [preview] 50%;
+    grid-template-rows: [name] auto [file] 100%;
+}
+
+.workarea-wrap textarea {
+    resize: none;
+    min-height: 100%;
+    font-size: 14px;
+    color: #24292e;
+    line-height: 1.5;
+}

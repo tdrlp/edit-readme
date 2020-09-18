@@ -1,0 +1,9 @@
+.max-width {
+    width: 100%;
+}
+
+.filename-wrap {
+    grid-column: editor;
+    grid-row: name;
+    margin: 0 5px 10px 0;
+}
