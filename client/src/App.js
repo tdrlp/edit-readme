@@ -1,8 +1,11 @@
 import React from 'react';
+import AppLayout from './components/AppLayout/AppLayout';
 
 function App() {
   return (
-    <div className='app-wrap'>hello world</div>
+    <AppLayout>
+      <div>hello world</div>
+    </AppLayout>
   );
 }
 
