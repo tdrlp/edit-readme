@@ -6,17 +6,13 @@ import './WorkArea.css';
 
 const WorkArea = () => {
     const [text, setText] = useState('');
+    const [HTMLText, setHTMLText] = useState('');
 
-    const textAreaProps = { growVertically: false, fill: true, wrap: true };
     return (
         <div className='workarea-wrap'>
             <FileName />
-            <Editor
-                text={text}
-                setText={setText}
-                textAreaProps={textAreaProps}
-            />
-            <Preview text={text} textAreaProps={textAreaProps} />
+            <Editor text={text} setText={setText} setHTMLText={setHTMLText} />
+            <Preview text={HTMLText} />
         </div>
     );
 };

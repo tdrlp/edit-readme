@@ -3,3 +3,11 @@
     grid-row: file;
     margin-right: 5px;
 }
+
+.editor-wrap textarea {
+    resize: none;
+    min-height: 100%;
+    font-size: 14px;
+    color: #24292e;
+    line-height: 1.5;
+}

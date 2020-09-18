@@ -6,11 +6,3 @@
     grid-template-columns: [editor] 50% [preview] 50%;
     grid-template-rows: [name] auto [file] 100%;
 }
-
-.workarea-wrap textarea {
-    resize: none;
-    min-height: 100%;
-    font-size: 14px;
-    color: #24292e;
-    line-height: 1.5;
-}

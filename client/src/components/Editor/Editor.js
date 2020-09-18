@@ -1,19 +1,28 @@
 import React from 'react';
 import { TextArea } from '@blueprintjs/core';
 import './Editor.css';
+const showdown = require('showdown');
+showdown.setFlavor('github');
 
-const Editor = ({ text, setText, textAreaProps }) => {
+const Editor = ({ text, setText, setHTMLText }) => {
+    const converter = new showdown.Converter({ simpleLineBreaks: false });
+
     const handleTextChange = (e) => {
-        setText(e.target.value);
+        const text = e.target.value;
+        const html = converter.makeHtml(text);
+        setHTMLText(html);
+        setText(text);
     };
 
     return (
         <div className='editor-wrap'>
             <TextArea
+                fill={true}
+                wrap={'true'}
                 value={text}
                 onChange={handleTextChange}
-                placeholder='Start typing to create your README file ...'
-                {...textAreaProps}
+                placeholder='Start typing here to create your README file ...'
+                growVertically={false}
             />
         </div>
     );

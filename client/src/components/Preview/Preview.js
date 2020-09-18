@@ -1,11 +1,13 @@
 import React from 'react';
-import { TextArea } from '@blueprintjs/core';
 import './Preview.css';
 
-const Preview = ({ text, textAreaProps }) => {
+const Preview = ({ text }) => {
     return (
         <div className='preview-wrap'>
-            <TextArea readOnly={true} value={text} {...textAreaProps} />
+            <div
+                className='preview'
+                dangerouslySetInnerHTML={{ __html: text }}
+            />
         </div>
     );
 };

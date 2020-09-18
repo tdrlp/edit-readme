@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, InputGroup, Tooltip } from '@blueprintjs/core';
+import { InputGroup, Tooltip } from '@blueprintjs/core';
 import './FileName.css';
 
 const FileName = () => {
