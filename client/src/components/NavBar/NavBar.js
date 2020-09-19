@@ -23,13 +23,6 @@ const NavBar = () => {
                         icon='link'
                         text='View on GitHub'
                     />
-                    <Divider />
-                    <AnchorButton
-                        href='https://www.linkedin.com/in/tudor-lupu/'
-                        target='_blank'
-                        icon='user'
-                        text='LinkedIn'
-                    />
                 </Navbar.Group>
             </Navbar>
         </div>
