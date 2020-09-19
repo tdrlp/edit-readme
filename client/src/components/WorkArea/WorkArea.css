@@ -4,5 +4,5 @@
     min-height: 500px;
     min-width: 300px;
     grid-template-columns: [editor] 50% [preview] 50%;
-    grid-template-rows: [name] auto [file] 100%;
+    grid-template-rows: [name] 50px [file] 100%;
 }
