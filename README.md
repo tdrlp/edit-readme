@@ -1,6 +1,5 @@
 # Live Editor
 
-[![Node Versionn](https://img.shields.io/badge/npm-6.14.8-brightgreen.svg?style=flat-square)](https://shields.io/)
 [![React Versionn](https://img.shields.io/badge/react-16.13.1-blue.svg?style=flat-square)](https://shields.io/)
 
 > This README file was written using this project - try it at [editread.me](https://editread.me/) :sunglasses:
