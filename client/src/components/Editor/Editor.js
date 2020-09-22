@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextArea } from '@blueprintjs/core';
+import { Icon, TextArea } from '@blueprintjs/core';
 import './Editor.css';
 const showdown = require('showdown');
 showdown.setFlavor('github');
@@ -16,6 +16,10 @@ const Editor = ({ text, setText, setHTMLText }) => {
 
     return (
         <div className='editor-wrap'>
+            <div className='editor-header'>
+                <Icon icon='edit' />
+                <span className='header'>Editor</span>
+            </div>
             <TextArea
                 fill={true}
                 wrap={'true'}
