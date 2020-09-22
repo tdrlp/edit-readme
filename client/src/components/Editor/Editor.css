@@ -1,13 +1,28 @@
 .editor-wrap {
     flex: 1 0 0;
     align-self: stretch;
-    min-width: 49%;
-    margin-right: 0.5%;
+    display: flex;
+    flex-flow: column nowrap;
+    min-width: 49.5%;
+    margin-right: 0.25%;
+}
+
+.editor-header {
+    flex: 0 1 auto;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f0f0f0;
+}
+
+.editor-header .header {
+    padding-left: 5px;
 }
 
 .editor-wrap textarea {
+    flex: 1 1 auto;
     resize: none;
-    min-height: 100%;
     font-size: 14px;
     color: #24292e;
     line-height: 1.5;
