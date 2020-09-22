@@ -1,0 +1,7 @@
+.app-wrap {
+    height: inherit;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: stretch;
+    align-items: flex-start;
+}

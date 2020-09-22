@@ -1,7 +1,8 @@
 .editor-wrap {
-    grid-column: editor;
-    grid-row: file;
-    margin-right: 5px;
+    flex: 1 0 0;
+    align-self: stretch;
+    min-width: 49%;
+    margin-right: 0.5%;
 }
 
 .editor-wrap textarea {

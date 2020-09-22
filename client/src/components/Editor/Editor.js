@@ -20,6 +20,7 @@ const Editor = ({ text, setText, setHTMLText }) => {
                 fill={true}
                 wrap={'true'}
                 value={text}
+                spellCheck={true}
                 onChange={handleTextChange}
                 placeholder='Start typing here to create your README file ...'
                 growVertically={false}
