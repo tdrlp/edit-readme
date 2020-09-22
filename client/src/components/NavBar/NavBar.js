@@ -6,13 +6,14 @@ import {
     Icon,
     Navbar,
 } from '@blueprintjs/core';
+import './NavBar.css';
 
 const NavBar = () => {
     return (
         <div className='navbar-wrap'>
             <Navbar className='bp3-dark'>
                 <Navbar.Group align={Alignment.LEFT}>
-                    <Icon icon='git-new-branch' iconSize='24px' />
+                    <Icon icon='code-block' iconSize='24px' />
                     <Divider />
                     <Navbar.Heading>README - Live Editor</Navbar.Heading>
                 </Navbar.Group>
@@ -20,8 +21,8 @@ const NavBar = () => {
                     <AnchorButton
                         href='https://github.com/isoyute/edit-readme'
                         target='_blank'
-                        icon='link'
-                        text='View on GitHub'
+                        icon='git-new-branch'
+                        text='GitHub'
                     />
                 </Navbar.Group>
             </Navbar>
