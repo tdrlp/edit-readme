@@ -8,7 +8,7 @@ A very basic live editor for README files written in react. It uses [Showdown](h
 
 ## Screenshot
 
-<img src="https://imgur.com/R04GI7O.png" height="400" />
+<img src="https://imgur.com/cADJoVS.png" height="300" />
 
 ## Demo & Deployment
 
@@ -36,7 +36,7 @@ This is a list of things that I still plan on working on when I get the chance:
 
 #### Features
 
-- [ ] Add ability to turn on spell check
+- [x] Add spell check
 - [ ] Add templates
 - [ ] Add ability to import a README (.md or maybe straight from GitHub?)
 - [ ] Add ability to save
